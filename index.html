@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aayush Prasad Kshirsagar | Portfolio</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#0b0b0b;
+  color:#eee;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+}
+nav h2{
+  color:#ff7a00;
+}
+nav a{
+  color:#ccc;
+  margin-left:25px;
+  text-decoration:none;
+}
+nav a:hover{
+  color:#ff7a00;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 60px;
+  min-height:90vh;
+}
+.hero-text{
+  max-width:50%;
+}
+.hero-text h1{
+  font-size:48px;
+}
+.hero-text h1 span{
+  color:#ff7a00;
+}
+.hero-text p{
+  margin:20px 0;
+  color:#bbb;
+  font-size:18px;
+}
+.hero-btn{
+  background:#ff7a00;
+  padding:14px 30px;
+  border-radius:30px;
+  color:#000;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero-img{
+  width:320px;
+  height:320px;
+  border-radius:50%;
+  background:orange;
+  padding:8px;
+}
+.hero-img img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+/* SECTION */
+section{
+  padding:90px 60px;
+}
+section h2{
+  font-size:38px;
+  margin-bottom:30px;
+}
+section h2 span{
+  color:#ff7a00;
+}
+
+/* ABOUT */
+.about p{
+  font-size:18px;
+  color:#ccc;
+  max-width:900px;
+}
+
+/* SKILLS */
+.skill{
+  margin-bottom:25px;
+}
+.skill p{
+  margin-bottom:6px;
+}
+.bar{
+  width:100%;
+  background:#222;
+  height:12px;
+  border-radius:10px;
+}
+.bar span{
+  display:block;
+  height:100%;
+  background:#ff7a00;
+  border-radius:10px;
+}
+
+/* HOBBIES */
+.hobbies{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+.hobby{
+  background:#161616;
+  padding:20px 30px;
+  border-radius:30px;
+}
+
+/* CONTACT */
+.contact p{
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>Aayush</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobby">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-text">
+    <h1>Hello, I’m <span>Aayush</span></h1>
+    <p>Web Creator • Learner • Creative Thinker</p>
+    <a class="hero-btn" href="#contact">Let’s Talk</a>
+  </div>
+
+  <div class="hero-img">
+    <img src="profile.jpg">
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About <span>Me</span></h2>
+  <p>
+    I am Aayush Prasad Kshirsagar, a passionate beginner web creator who enjoys
+    building modern, responsive and professional websites. I love learning new
+    technologies and improving my communication and leadership abilities.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>My <span>Skills</span></h2>
+
+  <div class="skill">
+    <p>Coding</p>
+    <div class="bar"><span style="width:80%"></span></div>
+  </div>
+
+  <div class="skill">
+    <p>Communication Skills</p>
+    <div class="bar"><span style="width:75%"></span></div>
+  </div>
+
+  <div class="skill">
+    <p>Leadership Skills</p>
+    <div class="bar"><span style="width:70%"></span></div>
+  </div>
+</section>
+
+<!-- HOBBIES -->
+<section id="hobby">
+  <h2>My <span>Hobbies</span></h2>
+  <div class="hobbies">
+    <div class="hobby">♟ Playing Chess</div>
+    <div class="hobby">📚 Reading Books</div>
+    <div class="hobby">💻 Website Creating</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact <span>Me</span></h2>
+  <p>📧 Email: aayushkshirsagar152@gmail.com</p>
+  <p>📷 Instagram: @Aayyuxsh_</p>
+  <p>📞 Phone: +91 9172080531</p>
+</section>
+
+<footer>
+  © 2026 Aayush Prasad Kshirsagar | Portfolio Website
+</footer>
+
+</body>
+</html>
